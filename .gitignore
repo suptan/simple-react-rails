@@ -42,3 +42,41 @@ bower.json
 
 # Ignore Byebug command history file.
 .byebug_history
+
+# ideaboard
+# dependencies
+/ideaboard/node_modules
+
+# testing
+/ideaboard/coverage
+
+# production
+/ideaboard/build
+
+# misc
+/ideaboard/.DS_Store
+/ideaboard/.env.local
+/ideaboard/.env.development.local
+/ideaboard/.env.test.local
+/ideaboard/.env.production.local
+
+/ideaboard/npm-debug.log*
+/ideaboard/yarn-debug.log*
+/ideaboard/yarn-error.log*
+
+# ideaboard-api
+
+# Ignore bundler config.
+/ideaboard-api/.bundle
+
+# Ignore the default SQLite database.
+/ideaboard-api/db/*.sqlite3
+/ideaboard-api/db/*.sqlite3-journal
+
+# Ignore all logfiles and tempfiles.
+/ideaboard-api/log/*
+/ideaboard-api/tmp/*
+/ideaboard-api!/log/.keep
+/ideaboard-api!/tmp/.keep
+
+/ideaboard-api.byebug_history
