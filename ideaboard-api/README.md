@@ -21,4 +21,6 @@ Things you may want to cover:
 
 * Deployment instructions
 
-* ...
+* How to run
+`rails s -p 3001`
+`yarn start`
